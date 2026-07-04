@@ -47,7 +47,7 @@ export default function Isotopes() {
         </motion.div>
 
         <motion.div
-          className="grid grid-cols-4 gap-[1.1rem] mx-lg:grid-cols-2 mx-sm:grid-cols-1"
+          className="grid grid-cols-4 gap-[1.1rem] mx-lg:grid-cols-2"
           variants={staggerContainer(0.06)}
           {...revealProps(reduce)}
         >

@@ -1,0 +1,104 @@
+/* ============================================================
+   Femto Isotope — global stylesheet
+   Tailwind is the styling engine; components use utility classes.
+   This file holds only the directives + a minimal base layer for
+   the few things Preflight does not cover.
+   ============================================================ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   Semantic theme tokens — the single source of truth for every
+   colour that changes between light and dark. RGB channels are
+   space-separated so Tailwind's `<alpha-value>` (e.g. bg-base/80)
+   resolves. `.dark` is toggled on <html> by next-themes.
+   ============================================================ */
+:root {
+  color-scheme: light;
+  --c-base: 255 255 255; /* page bg        (was paper)  */
+  --c-surface: 244 247 251; /* alt section    (was cloud)  */
+  --c-elevated: 255 255 255; /* raised cards                */
+  --c-fg: 11 27 58; /* primary text   (was ink)    */
+  --c-muted: 91 107 140; /* secondary text (was mist)   */
+  --c-subtle: 126 147 189; /* labels                       */
+  --c-hairline: 226 233 243; /* borders        (was line)   */
+  /* Brand-section gradients — LIGHT in light mode, deep navy in dark mode.
+     Every panel/hero-surface background is driven by these, so flipping
+     them here re-themes all the branded panels at once. */
+  --grad-hero: radial-gradient(110% 130% at 85% 15%, #ffffff 0%, #e8f1fc 55%, #d3e4f7 100%);
+  --grad-panel: linear-gradient(120% 120% at 20% 0%, #eef4fc 0%, #dbe9f9 100%);
+  --grad-card: linear-gradient(135deg, #f2f7fd 0%, #e3edf8 100%);
+  --grad-hero-page: radial-gradient(125% 125% at 78% 8%, #ffffff 0%, #eaf2fc 42%, #d2e3f7 100%);
+  /* Hero <canvas> particle colours (read by useNucleusCanvas) — darker blues so
+     the network reads on the light hero. */
+  --nucleus-navy: 23 64 148;
+  --nucleus-cyan: 37 116 186;
+  --nucleus-spark: 70 150 210;
+}
+
+.dark {
+  color-scheme: dark;
+  --c-base: 5 11 28;
+  --c-surface: 11 24 52;
+  --c-elevated: 16 33 66;
+  --c-fg: 234 242 255;
+  --c-muted: 194 210 238;
+  --c-subtle: 150 168 200;
+  --c-hairline: 40 58 96;
+  --grad-hero: radial-gradient(120% 120% at 80% 10%, #123163 0%, #081736 55%, #030a1e 100%);
+  --grad-panel: linear-gradient(120% 120% at 20% 0%, #102a5c, #081736);
+  --grad-card: linear-gradient(135deg, #16367d, #0a1a3d);
+  /* Dark mode: the page hero stays the deep navy gradient. */
+  --grad-hero-page: radial-gradient(120% 120% at 80% 10%, #123163 0%, #081736 55%, #030a1e 100%);
+  --nucleus-navy: 60 110 200;
+  --nucleus-cyan: 120 214 250;
+  --nucleus-spark: 210 240 255;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply font-body text-fg bg-base antialiased;
+    line-height: 1.65;
+    font-weight: 450; /* Inter custom weight */
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: #5ac5f1;
+    color: #0b1b3a;
+  }
+}
+
+@layer components {
+  /* Centralised dark brand-section backgrounds (theme-deepened via the vars above). */
+  .panel-hero {
+    background: var(--grad-hero);
+  }
+  .panel-panel {
+    background: var(--grad-panel);
+  }
+  .panel-card {
+    background: var(--grad-card);
+  }
+  /* Page-hero surface — light in light mode, deep navy in dark mode. */
+  .hero-surface {
+    background: var(--grad-hero-page);
+  }
+}
+
+/* Global reduced-motion killswitch — cannot be expressed as a per-element utility. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

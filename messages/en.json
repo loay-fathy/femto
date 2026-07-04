@@ -1,0 +1,511 @@
+{
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "whyFemto": "Why Femto",
+    "news": "News",
+    "applications": "Applications",
+    "contact": "Contact",
+    "getQuote": "Get a quote",
+    "openMenu": "Open menu",
+    "primary": "Primary",
+    "mobileMenu": "Mobile menu",
+    "homeAria": "Femto Isotope home",
+    "theme": "Theme",
+    "language": "Language"
+  },
+  "Theme": {
+    "switchToLight": "Switch to light theme",
+    "switchToDark": "Switch to dark theme"
+  },
+  "Hero": {
+    "eyebrow": "Medical & industrial radioisotopes · Berlin",
+    "headingLine1": "The heart of",
+    "headingLine2": "nuclear <grad>medicine</grad>",
+    "body": "Femto Isotope produces, supplies and labels the radioisotopes that power diagnosis and therapy worldwide — backed by reactor capacity, radiochemistry expertise, and a supply chain built to never miss a dose.",
+    "exploreIsotopes": "Explore isotopes",
+    "talkToTeam": "Talk to our team",
+    "supply": "We supply",
+    "scroll": "Scroll"
+  },
+  "Partners": {
+    "tagline": "Trusted distribution partners & technology sources"
+  },
+  "About": {
+    "eyebrow": "About Femto Isotope",
+    "heading": "Empowering healthcare through advanced isotope technology",
+    "body": "We exist to put reliable radioisotopes in the hands of the people who heal with them. From reactor irradiation to release-ready product, Femto bridges nuclear science and clinical practice across healthcare, research and industry.",
+    "badge": "Roots in radiochemistry",
+    "values": {
+      "mission": {
+        "title": "Our mission",
+        "body": "Harness radioisotopes to drive progress in medicine, research and industry — delivering quality our customers can build on."
+      },
+      "vision": {
+        "title": "Our vision",
+        "body": "A future where nuclear medicine leads how disease is diagnosed and treated, worldwide and without interruption."
+      },
+      "quality": {
+        "title": "Quality & safety",
+        "body": "Strict regulatory standards, advanced radiation monitoring and validated handling at every step."
+      },
+      "supply": {
+        "title": "Reliable supply",
+        "body": "A resilient chain engineered to keep isotopes flowing — because a missed dose is never an option."
+      }
+    }
+  },
+  "Capabilities": {
+    "eyebrow": "What we provide",
+    "heading": "Three ways we move your work forward",
+    "items": {
+      "supply": {
+        "idx": "/ supply",
+        "title": "Radioisotope supply",
+        "body": "A diverse catalogue of medical and industrial radioisotopes — quality-controlled for purity, activity and stability, then delivered on a schedule you can plan around.",
+        "linkText": "View catalogue"
+      },
+      "labelling": {
+        "idx": "/ labelling",
+        "title": "Custom radiolabelling",
+        "body": "Bespoke radiolabelling of compounds and tracers to your protocol — from precursor handling through to a characterised, release-ready product.",
+        "linkText": "Discuss a protocol"
+      },
+      "research": {
+        "idx": "/ research",
+        "title": "Contract research",
+        "body": "Radiochemistry and nuclear-science expertise for academia, pharma and industry: radiotracer development, radiochemical analysis and radiopharmaceutical development.",
+        "linkText": "Start a project"
+      }
+    }
+  },
+  "Isotopes": {
+    "eyebrow": "Isotope catalogue",
+    "heading": "The isotopes behind modern diagnosis & therapy",
+    "body": "Each one quality-controlled for the application it serves — from SPECT imaging to targeted oncology and industrial inspection.",
+    "reactorService": "Reactor service",
+    "reactorTitle": "Neutron irradiation on our nuclear reactor",
+    "reactorBody": "Custom production of medical and industrial isotopes — reliable, efficient and tailored to your activity, purity and timing requirements.",
+    "requestIrradiation": "Request irradiation",
+    "items": {
+      "mo": {
+        "category": "Diagnostic",
+        "name": "Molybdenum-99",
+        "use": "Parent of Tc-99m — the workhorse generator behind everyday SPECT imaging. Steady, consistent supply for hospitals worldwide."
+      },
+      "i": {
+        "category": "Theranostic",
+        "name": "Iodine-131",
+        "use": "Diagnosis and treatment of thyroid disease in one isotope, produced under rigorous quality control for the medical industry."
+      },
+      "lu": {
+        "category": "Therapy",
+        "name": "Lutetium-177",
+        "use": "Targeted radioligand therapy in oncology — produced from enriched Yb-176 on our reactor for high purity and yield."
+      },
+      "ir": {
+        "category": "Industrial",
+        "name": "Iridium-192",
+        "use": "High-quality sources for industrial radiography and non-destructive testing — accuracy and safety for demanding inspection work."
+      },
+      "yb": {
+        "category": "Precursor",
+        "name": "Ytterbium-176",
+        "use": "Enriched target material irradiated in-house to produce Lu-177 — the starting point of our therapy supply line."
+      }
+    }
+  },
+  "Stats": {
+    "items": {
+      "kits": "PET & FDG kits delivered",
+      "petKits": "PET cancer kits",
+      "generators": "Radiopharmaceutical generators",
+      "years": "Years across nuclear medicine"
+    }
+  },
+  "WhyFemto": {
+    "eyebrow": "Why partner with Femto",
+    "heading": "Built for the work that can't wait",
+    "items": {
+      "quality": {
+        "title": "Quality & safety, without compromise",
+        "body": "State-of-the-art facilities with advanced radiation monitoring and validated protocols for handling, transport and disposal — fully aligned with applicable regulation."
+      },
+      "supply": {
+        "title": "Reliable supply chain",
+        "body": "A resilient network engineered around the realities of half-life and logistics, so deliveries arrive when patients and projects need them."
+      },
+      "technology": {
+        "title": "Advanced technology",
+        "body": "Reactor capacity and modern radiochemistry let us produce to spec across diagnostic and therapeutic isotopes."
+      },
+      "experience": {
+        "title": "Proven experience",
+        "body": "A team with deep roots in nuclear medicine, trusted by hospitals, researchers and industry partners."
+      },
+      "education": {
+        "title": "Education & support",
+        "body": "Knowledge-sharing sits at the core of our mission — we back every supply with expertise you can lean on."
+      }
+    }
+  },
+  "Applications": {
+    "eyebrow": "Where it's used",
+    "heading": "From the scanner to the production floor",
+    "items": {
+      "nuclearMedicine": {
+        "title": "Nuclear medicine",
+        "body": "The isotopes that make functional imaging and targeted therapy possible at the point of care."
+      },
+      "molecularImaging": {
+        "title": "Molecular imaging",
+        "body": "PET and SPECT tracers that reveal biology in motion — long before anatomy alone would show it."
+      },
+      "thyroid": {
+        "title": "Thyroid uptake & therapy",
+        "body": "I-131 for precise diagnosis and treatment of thyroid conditions, with dependable activity."
+      },
+      "radiopharma": {
+        "title": "Radiopharmaceuticals",
+        "body": "From generators to labelled compounds — the building blocks of modern radiopharmacy."
+      },
+      "oncology": {
+        "title": "Oncology & therapy",
+        "body": "Lu-177 radioligand therapy that brings the dose to the disease, sparing healthy tissue."
+      },
+      "industrial": {
+        "title": "Industrial radiography",
+        "body": "Ir-192 sources for non-destructive testing that keeps critical infrastructure safe."
+      }
+    }
+  },
+  "News": {
+    "eyebrow": "Articles & updates",
+    "heading": "Latest from Femto Isotope",
+    "allNews": "All news",
+    "readMore": "Read more",
+    "items": {
+      "demand": {
+        "tag": "Supply chain",
+        "date": "2025 · Industry",
+        "title": "Global demand for nuclear-medicine isotopes keeps rising — and Femto is strengthening reliable supply",
+        "body": "As nuclear medicine grows worldwide, a secure and uninterrupted supply chain has become essential to reaching patients on time. We're investing where the vulnerabilities are greatest."
+      },
+      "eanm": {
+        "tag": "Event",
+        "date": "Oct 2024 · Hamburg",
+        "title": "Femto Isotope at EANM 2024",
+        "body": "We joined the European Association of Nuclear Medicine Congress, 19–23 October, to share our latest advances and connect with the community."
+      },
+      "therapyLine": {
+        "tag": "Capability",
+        "date": "Production · Lu-177",
+        "title": "From Yb-176 to Lu-177: our therapy line explained",
+        "body": "How enriched targets become high-purity Lutetium-177 for targeted oncology — and what that means for your radioligand programmes."
+      }
+    }
+  },
+  "ContactCTA": {
+    "eyebrow": "Let's work together",
+    "heading": "Secure your <grad>isotope supply.</grad>",
+    "body": "Whether you need radioisotope products, custom radiolabelling, or contract research support, we're ready to help you advance your projects. Tell us what you're working on.",
+    "emailTeam": "Email our team",
+    "connectLinkedin": "Connect on LinkedIn",
+    "email": "Email",
+    "phone": "Phone",
+    "headquarters": "Headquarters",
+    "address": "Französische Straße 12, D-10117 Berlin"
+  },
+  "AboutHero": {
+    "eyebrow": "About Femto Isotope",
+    "heading": "The people behind <grad>reliable isotope supply.</grad>",
+    "body": "We bridge nuclear science and clinical practice — delivering medical and industrial radioisotopes that hospitals, researchers and industry partners can build on.",
+    "readStory": "Read our story",
+    "meta1": "15+ years in nuclear medicine",
+    "meta2": "Berlin & New York"
+  },
+  "AboutStory": {
+    "eyebrow": "Who we are",
+    "heading": "From nuclear science to clinical practice",
+    "badge": "Roots in radiochemistry",
+    "paragraphs": [
+      "Femto Isotope exists to put reliable radioisotopes in the hands of the people who heal with them. From reactor irradiation to release-ready product, we bridge nuclear science and clinical practice across healthcare, research and industry.",
+      "Our roots reach back to a long lineage in radiochemistry — tracing to Cimex Misr — and decades of hands-on experience producing and handling radioactive sources to exacting standards.",
+      "Today that heritage powers a focused portfolio: PET & FDG kits, PET cancer kits and radiopharmaceutical generators, supported by contract research and custom radiolabelling for partners worldwide."
+    ]
+  },
+  "AboutTimeline": {
+    "eyebrow": "Our journey",
+    "heading": "A heritage measured in decades",
+    "items": {
+      "origins": {
+        "year": "Origins",
+        "title": "A lineage in radiochemistry",
+        "body": "Our story traces back through Cimex Misr and a long tradition of producing and handling radioactive sources to exacting standards."
+      },
+      "y2009": {
+        "year": "2009",
+        "title": "Roots take hold",
+        "body": "The radiochemistry foundations Femto Isotope is built on are laid — the start of decades of hands-on experience with radioactive sources."
+      },
+      "scaleup": {
+        "year": "Scale-up",
+        "title": "In-house reactor capacity",
+        "body": "Reactor irradiation and modern radiochemistry come together, letting us produce therapeutic isotopes like Lu-177 from enriched Yb-176."
+      },
+      "y2024": {
+        "year": "2024",
+        "title": "On the world stage",
+        "body": "Femto Isotope joins the EANM Congress in Hamburg to share advances and connect with the nuclear-medicine community."
+      },
+      "today": {
+        "year": "Today",
+        "title": "Berlin to New York",
+        "body": "From our Berlin headquarters and New York office, we supply medical and industrial radioisotopes to partners worldwide."
+      }
+    }
+  },
+  "MissionVision": {
+    "eyebrow": "What drives us",
+    "heading": "Mission & vision",
+    "items": {
+      "mission": {
+        "label": "Our mission",
+        "title": "Harness radioisotopes to drive progress",
+        "body": "To advance medicine, research and industry by producing and delivering radioisotopes of a quality our customers can build on — reliably, safely and without interruption."
+      },
+      "vision": {
+        "label": "Our vision",
+        "title": "Nuclear medicine at the heart of care",
+        "body": "A future where nuclear medicine leads how disease is diagnosed and treated worldwide — backed by patient-centred care, education and continuous improvement."
+      }
+    }
+  },
+  "AboutProcess": {
+    "eyebrow": "From reactor to patient",
+    "heading": "How an isotope reaches care",
+    "items": {
+      "irradiation": {
+        "title": "Reactor irradiation",
+        "body": "Enriched targets — like Yb-176 — are irradiated in-house to create the isotopes at the heart of every product."
+      },
+      "radiochemistry": {
+        "title": "Radiochemistry",
+        "body": "Separation and purification turn irradiated targets into high-purity isotopes, characterised down to the trace level."
+      },
+      "qualityControl": {
+        "title": "Quality control",
+        "body": "Activity, radiochemical purity and stability are checked against spec before anything is cleared for release."
+      },
+      "delivery": {
+        "title": "Cold-chain delivery",
+        "body": "Half-life-aware logistics move release-ready isotopes to hospitals and partners — on schedule, every time."
+      }
+    }
+  },
+  "AboutPrinciples": {
+    "eyebrow": "How we work",
+    "heading": "Principles we won't compromise on",
+    "items": {
+      "quality": {
+        "title": "Quality & safety first",
+        "body": "Strict regulatory standards, advanced radiation monitoring and validated protocols for handling, transport and disposal at every step."
+      },
+      "supply": {
+        "title": "Reliable supply",
+        "body": "A resilient chain engineered around the realities of half-life and logistics, so deliveries arrive when patients and projects need them."
+      },
+      "technology": {
+        "title": "Advanced technology",
+        "body": "Reactor capacity and modern radiochemistry let us produce to spec across diagnostic and therapeutic isotopes."
+      },
+      "experience": {
+        "title": "Proven experience",
+        "body": "A team with deep roots in nuclear medicine, trusted by hospitals, researchers and industry partners."
+      },
+      "education": {
+        "title": "Education & support",
+        "body": "Knowledge-sharing sits at the core of our mission — we back every supply with expertise you can lean on."
+      }
+    }
+  },
+  "Locations": {
+    "eyebrow": "Where to find us",
+    "heading": "Our locations",
+    "items": {
+      "berlin": { "label": "Headquarters · Berlin" },
+      "newyork": { "label": "Office · New York" }
+    }
+  },
+  "ProductsHero": {
+    "eyebrow": "Products & services",
+    "heading": "Radioisotopes for <grad>diagnosis, therapy & industry.</grad>",
+    "body": "From reactor irradiation to release-ready product, we supply medical and industrial radioisotopes — each quality-controlled for the application it serves, from SPECT imaging to targeted oncology and non-destructive testing.",
+    "browseCatalogue": "Browse catalogue",
+    "requestQuote": "Request a quote",
+    "meta1": "Medical & industrial isotopes",
+    "meta2": "In-house reactor irradiation"
+  },
+  "ProductsCatalogue": {
+    "eyebrow": "Product catalogue",
+    "heading": "The isotopes behind modern diagnosis & therapy",
+    "body": "A diverse range of medical and industrial radioisotopes — quality-controlled for purity, activity and stability, then delivered on a schedule you can plan around.",
+    "requestSupply": "Request supply",
+    "items": {
+      "mo": {
+        "category": "Diagnostic",
+        "name": "Molybdenum-99",
+        "summary": "Our Mo-99 is the parent of Tc-99m — the workhorse generator behind everyday SPECT imaging. We ensure a stable, consistent supply for healthcare facilities worldwide.",
+        "applications": ["SPECT imaging", "Tc-99m generators", "Medical diagnostics"]
+      },
+      "i": {
+        "category": "Theranostic",
+        "name": "Iodine-131",
+        "summary": "As a leading supplier of I-131, we deliver top-quality isotopes for the diagnosis and treatment of thyroid conditions — produced under rigorous quality control.",
+        "applications": ["Thyroid diagnostics", "Thyroid therapy", "Theranostics"]
+      },
+      "lu": {
+        "category": "Therapy",
+        "name": "Lutetium-177",
+        "summary": "Produced in-house from enriched Yb-176, our Lu-177 is an essential isotope for targeted radioligand therapy in oncology — delivered at high purity and yield.",
+        "applications": ["Radioligand therapy", "Targeted oncology", "Cancer treatment"]
+      },
+      "ir": {
+        "category": "Industrial",
+        "name": "Iridium-192",
+        "summary": "We supply Ir-192, a versatile isotope widely used in industrial radiography for non-destructive testing — high-quality sources ensuring accuracy and safety.",
+        "applications": ["Industrial radiography", "Non-destructive testing", "Inspection"]
+      },
+      "yb": {
+        "category": "Precursor",
+        "name": "Ytterbium-176",
+        "summary": "Enriched Yb-176 target material is irradiated on our reactor to produce Lu-177 — the starting point of our targeted-therapy supply line.",
+        "applications": ["Lu-177 production", "Enriched targets", "Reactor irradiation"]
+      }
+    }
+  },
+  "ProductsServices": {
+    "category": "Reactor service",
+    "title": "Neutron irradiation on our nuclear reactor",
+    "body": "Our cutting-edge nuclear reactor offers advanced irradiation services for the production of high-quality medical and industrial radioisotopes — tailored to your activity, purity and timing requirements for healthcare, research and industry.",
+    "linkText": "Request irradiation"
+  },
+  "ContactHero": {
+    "eyebrow": "Get in touch",
+    "heading": "Let's build your <grad>isotope supply.</grad>",
+    "body": "Whether you require radioisotope products, custom radiolabelling services, or contract research support, Femto Isotope is here to meet your needs — with a reply within one business day.",
+    "emailTeam": "Email our team",
+    "connectLinkedin": "Connect on LinkedIn",
+    "cardTitle": "Talk to our team",
+    "cardBody": "Reach us directly — we route every enquiry to the right specialist.",
+    "email": "Email",
+    "phone": "Phone",
+    "headquarters": "Headquarters",
+    "preferForm": "Prefer the full form?",
+    "preferFormBody": "Send us your project details and timeline.",
+    "startEnquiry": "Start an enquiry"
+  },
+  "Contact": {
+    "form": {
+      "eyebrow": "Send a message",
+      "heading": "Tell us what you're working on",
+      "inquiryType": "Inquiry type",
+      "name": "Name",
+      "namePlaceholder": "Jane Doe",
+      "email": "Email",
+      "emailPlaceholder": "you@organisation.com",
+      "org": "Organisation",
+      "optional": "optional",
+      "orgPlaceholder": "Hospital, lab or company",
+      "message": "Message",
+      "messagePlaceholder": "Which isotopes, activities or services are you after?",
+      "send": "Send message",
+      "transmitting": "Transmitting…",
+      "success": "Thanks — your message is on its way. We'll be in touch shortly.",
+      "error": "Something went wrong. Email us directly at {email}.",
+      "generalLabel": "General",
+      "errors": {
+        "name": "Please enter your name",
+        "email": "Please enter your email",
+        "emailInvalid": "Please enter a valid email",
+        "message": "Tell us how we can help"
+      }
+    },
+    "inquiry": {
+      "supply": "Radioisotope supply",
+      "labelling": "Custom radiolabelling",
+      "research": "Contract research",
+      "other": "Other"
+    },
+    "rail": {
+      "eyebrow": "Direct channels",
+      "heading": "Prefer to reach us another way?",
+      "email": "Email",
+      "phoneBerlin": "Phone · Berlin",
+      "phoneNy": "Phone · New York",
+      "linkedin": "LinkedIn",
+      "linkedinValue": "Follow Femto Isotope",
+      "headquarters": "Headquarters"
+    }
+  },
+  "Newsletter": {
+    "eyebrow": "For our periodical newsletter",
+    "heading": "Stay close to the science.",
+    "body": "Isotope availability, capability updates and the occasional note from the lab — straight to your inbox.",
+    "placeholder": "you@organisation.com",
+    "emailAria": "Email address",
+    "subscribe": "Subscribe",
+    "sending": "Subscribing…",
+    "success": "You're on the list — thanks for subscribing.",
+    "error": "Something went wrong. Please try again, or email us directly."
+  },
+  "Footer": {
+    "blurb": "A leading provider of advanced medical isotope technology and services — revolutionising care through innovative radioactive sources and cutting-edge technology.",
+    "explore": "Explore",
+    "capabilities": "Capabilities",
+    "contact": "Contact",
+    "exploreLinks": {
+      "home": "Home",
+      "about": "About us",
+      "products": "Products",
+      "why": "Why Femto",
+      "news": "News & blogs"
+    },
+    "capabilityLinks": {
+      "supply": "Radioisotope supply",
+      "labelling": "Custom radiolabelling",
+      "research": "Contract research",
+      "reactor": "Reactor irradiation",
+      "applications": "Applications"
+    },
+    "rights": "© 2026 Femto Isotope. All rights reserved.",
+    "tagline": "Illuminating innovation in nuclear medicine.",
+    "linkedinAria": "LinkedIn",
+    "emailAria": "Email"
+  },
+  "NotFound": {
+    "code": "404",
+    "heading": "This page could not be found",
+    "body": "The page you are looking for may have moved or no longer exists.",
+    "backHome": "Back to home"
+  },
+  "Metadata": {
+    "home": {
+      "title": "Femto Isotope — The Heart of Nuclear Medicine",
+      "description": "Femto Isotope is a Berlin-based supplier of medical and industrial radioisotopes — Mo-99, I-131, Lu-177, Ir-192 — with contract radiochemistry and custom radiolabelling services."
+    },
+    "about": {
+      "title": "About Us — Femto Isotope",
+      "description": "Femto Isotope bridges nuclear science and clinical practice — a Berlin-based supplier of medical and industrial radioisotopes, with roots in radiochemistry and a focus on reliable, safe supply."
+    },
+    "products": {
+      "title": "Products — Femto Isotope",
+      "description": "Medical and industrial radioisotopes from Femto Isotope — Mo-99, I-131, Lu-177, Ir-192 and Yb-176 — plus neutron irradiation services on our nuclear reactor, all quality-controlled for the application they serve."
+    },
+    "contact": {
+      "title": "Contact Us — Femto Isotope",
+      "description": "Get in touch with Femto Isotope — radioisotope supply, custom radiolabelling and contract research. Offices in Berlin and New York."
+    }
+  }
+}
